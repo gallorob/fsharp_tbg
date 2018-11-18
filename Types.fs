@@ -56,9 +56,3 @@ type World = {
     Rooms: Map<RoomId, Room>
     Player: Player
 }
-
-// Game event type    
-type GameEvent = 
-    | UpdateState of (World -> Result<World, string>)
-    | EndGameLoop
-

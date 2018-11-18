@@ -8,7 +8,7 @@ Initial values for game
 
 let key: Item = {
         Details = {
-            Name = "A rusty old key"
+            Name = "[A rusty old key]"
             Description ="A key to open a door somewhere someplace."
         }
     }
@@ -17,7 +17,7 @@ let allRooms = [
     {
         Id = RoomId "center"
         Details = {
-            Name = "A central room"
+            Name = "[A central room]"
             Description = "You are standing in a central room with exits in all directions. A single brazier lights the room."
         }
         Items = []
@@ -31,7 +31,7 @@ let allRooms = [
     {
         Id = RoomId "north1"
         Details = {
-            Name = "A dark room"
+            Name = "[A dark room]"
             Description = "You are standing in a very dark room. You hear the faint sound of rats scurrying along the floor."
         }
         Items = []
@@ -45,7 +45,7 @@ let allRooms = [
     {
         Id = RoomId "south1"
         Details = {
-            Name = "A cold room"
+            Name = "[A cold room]"
             Description = "You are standing in a room that feels very cold. Your breath instantly turns into a white puff."
         }
         Items = []
@@ -59,7 +59,7 @@ let allRooms = [
     {
         Id = RoomId "west1"
         Details = {
-            Name = "A cozy room"
+            Name = "[A cozy room]"
             Description = "This room seems very cozy, as if someone had made a home here. Various personal belongings are strewn about."
         }
         Items = [key]
@@ -73,7 +73,7 @@ let allRooms = [
     {
         Id = RoomId "east1"
         Details = {
-            Name = "An open meadow"
+            Name = "[An open meadow]"
             Description = "You are in an open meadow. The sun is bright and it takes some time for your eyes to adjust."
         }
         Items = []
